@@ -48,6 +48,7 @@ input::placeholder {
   list-style: none;
   padding: 20px;
   font-family: cursive;
+  color: white;
   border-top: dotted;
   border-color: rgb(242, 243, 237);
   position: relative;
