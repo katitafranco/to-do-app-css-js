@@ -8,7 +8,7 @@ body {
   display: flex;
   justify-content: center;
   background-color: rgb(242, 243, 237);
-  font-size: 20px;
+  font-size: 1rem;
 }
 
 h1 {
@@ -18,11 +18,12 @@ h1 {
 
 .form {
   position: absolute;
-  top: 30%;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
-  width: 400px;
-  background-color: rgb(19, 41, 11);
+  top: 6rem;
+  box-shadow: 0 4px 8px rgba(230, 213, 213, 0.3);
+  width: 100%;
+  background-color: rgb(237, 238, 232);
   border-radius: 10px;
+  overflow: hidden;
 }
 
 .input {
@@ -31,7 +32,7 @@ h1 {
   padding: 20px;
   border-radius: 10px 10px 0 0;
   border: none;
-  font-size: 20px;
+  font-size: 1rem;
   font-family: cursive;
 }
 
@@ -48,14 +49,15 @@ input::placeholder {
   list-style: none;
   padding: 20px;
   font-family: cursive;
-  color: white;
+
   border-top: dotted;
-  border-color: rgb(242, 243, 237);
+  border-color: rgb(12, 12, 11);
+  border-width: 0.5px;
   position: relative;
 }
 
 .list li .fa-trash {
-  color: rgb(242, 243, 237);
+  color: rgb(16, 0, 160);
   position: absolute;
   right: 10px;
   top: 50%;
