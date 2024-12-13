@@ -7,12 +7,12 @@ body {
   margin: 0;
   display: flex;
   justify-content: center;
-  background-color: brown;
+  background-color: rgb(242, 243, 237);
   font-size: 20px;
 }
 
 h1 {
-  color: white;
+  color: rgb(22, 16, 16);
   text-align: center;
 }
 
@@ -21,7 +21,7 @@ h1 {
   top: 30%;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
   width: 400px;
-  background-color: deepskyblue;
+  background-color: rgb(19, 41, 11);
   border-radius: 10px;
 }
 
@@ -49,12 +49,12 @@ input::placeholder {
   padding: 20px;
   font-family: cursive;
   border-top: dotted;
-  border-color: teal;
+  border-color: rgb(242, 243, 237);
   position: relative;
 }
 
 .list li .fa-trash {
-  color: brown;
+  color: rgb(242, 243, 237);
   position: absolute;
   right: 10px;
   top: 50%;
